@@ -1,0 +1,17 @@
+server:
+  port: 7072
+
+spring:
+  application:
+    name: User_Api
+    
+  boot:
+    admin:
+      client:
+        url: http//localhost:1111/  
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'        
